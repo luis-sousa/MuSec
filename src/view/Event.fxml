@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.net.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="422.0" prefWidth="712.0" styleClass="mainFxmlClass" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.EventController">
+    <stylesheets>
+        <URL value="@fxml.css" />
+    </stylesheets>
+   <children>
+      <MenuBar prefHeight="29.0" prefWidth="600.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+        <menus>
+          <Menu mnemonicParsing="false" text="Start">
+            <items>
+              <MenuItem mnemonicParsing="false" onAction="#CloseFired" text="Close MuSec" />
+            </items>
+          </Menu>
+          <Menu mnemonicParsing="false" text="Help">
+            <items>
+              <MenuItem mnemonicParsing="false" onAction="#AboutFired" text="About MuSec" />
+            </items>
+          </Menu>
+        </menus>
+      </MenuBar>
+      <Button fx:id="btStart" layoutX="370.0" layoutY="103.0" mnemonicParsing="false" onAction="#btStartFired" prefHeight="47.0" prefWidth="57.0" AnchorPane.leftAnchor="370.0">
+         <graphic>
+            <ImageView fitHeight="38.0" fitWidth="38.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../images/play.png" />
+               </image>
+            </ImageView>
+         </graphic></Button>
+      <Label layoutX="11.0" layoutY="101.0" prefHeight="25.0" prefWidth="125.0" text="Username" />
+      <Label layoutX="11.0" layoutY="127.0" prefHeight="25.0" prefWidth="118.0" text="Password" />
+      <Label layoutX="11.0" layoutY="72.0" prefHeight="25.0" prefWidth="111.0" text="IP" />
+      <TextField fx:id="txtIP" layoutX="141.0" layoutY="72.0" />
+      <TextField fx:id="txtUser" layoutX="141.0" layoutY="99.0" />
+      <TextArea fx:id="txtResults" layoutX="7.0" layoutY="191.0" prefHeight="225.0" prefWidth="698.0" AnchorPane.bottomAnchor="6.0" AnchorPane.leftAnchor="7.0" AnchorPane.rightAnchor="7.0" AnchorPane.topAnchor="191.0" />
+      <PasswordField fx:id="txtPassword" layoutX="141.0" layoutY="127.0" />
+      <Button fx:id="btStop" layoutX="437.0" layoutY="103.0" mnemonicParsing="false" onAction="#btStopFired" prefHeight="43.0" prefWidth="57.0">
+         <graphic>
+            <ImageView fitHeight="44.0" fitWidth="39.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../images/stop.png" />
+               </image>
+            </ImageView>
+         </graphic></Button>
+      <Label layoutX="11.0" layoutY="35.0" prefHeight="25.0" prefWidth="267.0" text="Database Ossim Server">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="11.0" layoutY="168.0" prefHeight="15.0" prefWidth="202.0" text="Ossim Server Events">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

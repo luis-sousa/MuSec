@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane id="AnchorPane" mouseTransparent="true" prefHeight="355.0" prefWidth="402.0" stylesheets="@fxml.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.AboutController">
+<children><ImageView fitHeight="114.0" fitWidth="79.0" layoutX="14.0" layoutY="44.0" pickOnBounds="true" preserveRatio="true" AnchorPane.bottomAnchor="259.0" AnchorPane.leftAnchor="14.0" AnchorPane.topAnchor="44.0">
+<image>
+<Image url="@../images/icon.jpg" />
+</image></ImageView><Label layoutX="113.0" layoutY="18.0" prefHeight="17.0" prefWidth="239.0" text="MuSec - OSSIM Plugin">
+<font>
+<Font name="System Bold" size="13.0" />
+</font></Label><Label layoutX="113.0" layoutY="50.0" prefHeight="17.0" prefWidth="79.0" text="CodeName:">
+<font>
+<Font name="System Bold" size="12.0" />
+</font>
+</Label><Label layoutX="113.0" layoutY="67.0" prefHeight="17.0" prefWidth="79.0" text="Version:">
+<font>
+<Font name="System Bold" size="12.0" />
+</font>
+</Label><Label layoutX="113.0" layoutY="97.0" prefHeight="17.0" prefWidth="62.0" text="Freeware" /><Label layoutX="116.0" layoutY="146.0" prefHeight="17.0" prefWidth="101.0" text="Author:">
+<font>
+<Font name="System Bold" size="12.0" />
+</font></Label><Label layoutX="198.0" layoutY="146.0" prefHeight="17.0" prefWidth="169.0" text="8090228@estg.ipp.pt" /><TextArea editable="false" layoutX="45.0" layoutY="177.0" prefHeight="151.0" prefWidth="359.0" text="Free sonification program of events from a OSSIM server.&#10;&#10;Made by ESTG student in your thesis:&#10;Luís Sousa nº 8090228.&#10;&#10;The use of this program it is your responsibility and all the risks that can happen.&#10;&#10;" wrapText="true" AnchorPane.leftAnchor="45.0" /><Label layoutX="195.0" layoutY="50.0" prefHeight="17.0" prefWidth="48.0" text="MuSec" /><Label layoutX="196.0" layoutY="67.0" prefHeight="17.0" prefWidth="248.0" text="1.0 compiled in 14/07/2016" />
+</children></AnchorPane>

@@ -1,0 +1,10 @@
+/*
+ * Empty Stylesheet file.
+ */
+
+.root {
+    -fx-base: rgb(191, 218, 248);
+    -fx-background: rgb(215, 232, 250);
+}
+
+
